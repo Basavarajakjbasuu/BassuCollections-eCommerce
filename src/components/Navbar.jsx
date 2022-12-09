@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/ind.png';
 const Navbar = () => {
 	return (
-		<div className="w-full h-14 px-4 py-2">
+		<div className="w-full h-14 px-4 py-2 sticky top-0 bg-white z-50 drop-shadow-sm">
 			<div className="flex items-center justify-between">
 				{/* Left */}
 				<div className="md:flex items-center gap-2 hidden">
@@ -52,9 +52,6 @@ const Navbar = () => {
 						</div>
 					</div>
 					<div className="flex gap-1 text-3xl md:text-xl text-[#777] cursor-pointer">
-						<IoSearchSharp />
-						<IoPersonOutline />
-						<AiOutlineHeart />
 						<div className="relative">
 							<HiOutlineShoppingCart />
 							<span className="text-sm font-semibold w-5 h-5 rounded-full bg-[#2879fe] text-white absolute -top-2 -right-2 flex items-center justify-center">

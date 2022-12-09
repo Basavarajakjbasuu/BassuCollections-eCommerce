@@ -44,7 +44,7 @@ const Slider = () => {
 		<div className="flex w-[300vw] md:gap-x-20 gap-x-4 md:p-7 p-2 ">
 			{data.map(item => (
 				<div
-					className="w-screen relative transition-all duration-500 ease-linear"
+					className="w-screen  transition-all duration-500 ease-linear"
 					key={item.id}
 					style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
 					<img
@@ -52,7 +52,7 @@ const Slider = () => {
 						alt="banner"
 						className="rounded-2xl  h-[400px] w-full object-cover object-right "
 					/>
-					<div className="absolute  top-16 left-10 rounded md:top-16 md:left-20 bg-white/[0.8] md:bg-transparent p-8 w-[80%] md:max-w-none">
+					<div className="absolute  top-16 left-10 rounded md:top-0 md:left-20 bg-white/[0.8] md:bg-transparent p-8 w-[80%] md:max-w-none">
 						<h2 className="md:text-3xl text-xl font-semibold text-[#ff8f9c] tracking-wider capitalize">
 							{item.subTitle}
 						</h2>

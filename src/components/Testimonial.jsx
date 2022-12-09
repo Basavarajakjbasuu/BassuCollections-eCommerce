@@ -3,7 +3,7 @@ import Quotes from '../assets/quotes.svg';
 import testimonial from '../assets/testimonial-1.jpg';
 const Testimonial = () => {
 	return (
-		<div className="flex-1 mt-4">
+		<div className="flex-1 mt-4 p-2">
 			<h2 className="capitalize mb-2 font-bold">testimonial</h2>
 			<hr />
 			<div className="mt-4 p-8 m-4 flex items-center justify-center flex-col border-[1px] rounded-xl">
